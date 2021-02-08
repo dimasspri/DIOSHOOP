@@ -51,7 +51,9 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="16dp"
+                    android:onClick="chat"
                     android:src="@drawable/chat" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
@@ -59,7 +61,7 @@
                     android:text="Chat"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold"/>
 
 
                 <ImageView
@@ -70,6 +72,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="16dp"
+                    android:onClick="home"
                     android:src="@drawable/home" />
 
                 <TextView
@@ -79,7 +82,7 @@
                     android:text="home"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold"/>
 
                 <ImageView
                     android:layout_width="110dp"
@@ -89,6 +92,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="16dp"
+                    android:onClick="settings"
                     android:src="@drawable/settings" />
 
                 <TextView
@@ -98,7 +102,7 @@
                     android:text="Setting"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold"/>
             </LinearLayout>
 
 
@@ -112,6 +116,7 @@
                     android:layout_height="110dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
+                    android:onClick="history"
                     android:src="@drawable/history" />
 
                 <TextView
@@ -121,13 +126,14 @@
                     android:text="Histori"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold"/>
 
                 <ImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
+                    android:onClick="checklist"
                     android:src="@drawable/checklist" />
 
                 <TextView
@@ -137,13 +143,14 @@
                     android:text="List"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold"/>
 
                 <ImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
+                    android:onClick="shopping"
                     android:src="@drawable/shopping" />
 
                 <TextView
@@ -153,7 +160,7 @@
                     android:text="Belanja"
                     android:textColor="#000"
                     android:textSize="20dp"
-                    android:textStyle="bold"
+                    android:textStyle="bold"/>
             </LinearLayout>
 
         </LinearLayout>
